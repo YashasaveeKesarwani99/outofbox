@@ -1,0 +1,220 @@
+.homepage-main{
+    background-color:rgb(87,28,96);
+    background:linear-gradient(90deg, rgba(87,28,96,1) 0%, rgba(230,73,134,.8) 74%),url('../../utils/student_photo.jpg');
+    background-size: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.homepage-header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.homepage-nav-left{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.homepage-nav-left p{
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.homepage-nav-left p:nth-child(1){
+    display: flex;
+    font-size: 25px;
+    padding-top: 3%;
+}
+
+.homepage-nav-right{
+    padding-top:0.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage-nav-right-contact{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    padding-top: 1%;
+    width: 120%;
+}
+
+.homepage-nav-right-contact p{
+    padding-left: 4%;
+}
+
+.homepage-nav-right-contact p:nth-child(4){
+    margin-left: 4%;
+    padding: 0 1% 1% 1%;
+    background-color: rgba(218,209,211,.2);
+}
+
+.homepage-nav-right-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 5%;
+    align-items: center;
+    width: 120%;
+}
+
+.homepage-nav-right-login p{
+    padding-left:5% ;
+}
+
+.homepage-nav-right-login p:nth-child(2){
+    margin-left: 2%;
+    background-color: white;
+    padding-right: 5%;
+    padding-top: 2%;
+    font-size: 14px;
+    height: 25px;
+    color:green;
+    border-radius: 20px;
+}
+
+.homepage-title-container{
+    height: 60vh;
+    position: relative;
+}
+
+.homepage-title-sub-container{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.homepage-title-bold{
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.homepage-title-small{
+    font-size: 1.2em;
+}
+
+.homepage-about{
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: -222222;
+}
+
+.homepage-about-container-1{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.homepage-about-right{
+    width: 50vw;
+    font-weight: 600;
+}
+
+.homepage-about-left {
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.homepage-about-left div:nth-child(2){
+    color: rgb(87,28,96); ;
+    font-weight: 900;
+}
+
+.homepage-ses{
+    background-color:rgb(12,8,13);
+    background:linear-gradient(90deg, rgba(12,8,13,1) 49%, rgba(219,194,204,0) 86%),url('../../utils/seminar_photo.jpg');
+    background-size: 100vw;
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-content:center;
+}
+
+.homepage-ses-left{
+    padding-top:2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.homepage-ses-left p:nth-child(1){
+    font-size: 14px;
+    letter-spacing: .5px;
+}
+
+.homepage-ses-right{
+    display: flex;
+    align-items: center; 
+}
+
+.homepage-live-ses{
+    background-color:rgba(218, 214, 166,.8);
+    height: 40vh;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.homepage-live-ses-title{
+    font-weight: 900;
+    padding-top:2%;
+    padding-bottom: 1%;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+
+.homepage-live-ses-title a{
+    text-decoration: none;
+    color: black;
+    border-bottom: green 2px solid;
+}
+
+.homepage-live-ses-cards{
+
+    display: flex;
+    justify-content: space-between;
+    top:15vh;
+    left: 3vw;
+    height: 50vh;
+    margin: auto;
+    position:absolute;
+    align-content: center;
+}
+
+.homepage-live-ses-card{
+    display: flex;
+    margin-right: 5vw;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    background: rgb(10,9,10);
+    background: linear-gradient(150deg, rgba(10,9,10,1) 23%, rgba(82,20,125,1) 74%, rgba(207,40,94,1) 100%);;
+    padding-left: 20px;
+    width: 220px;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.homepage-live-ses-card div:nth-child(1){
+    color:rgb(253, 249, 29);
+}
