@@ -3,6 +3,9 @@ import './Homepage.css'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import { IoMdMail } from 'react-icons/io'
 import { IoLogoXing } from 'react-icons/io'
+import echo from '../../utils/amazon_echo.png'
+import fire from '../../utils/amazon_firestick.jpg';
+import gift from '../../utils/gift_box.jpg'
 
 const Homepage = ()=>{
 
@@ -94,9 +97,26 @@ const Homepage = ()=>{
                     </div>
                 </div>
             </div>
-            <div style={{height:'40vh'}}>
-
-            </div>
+            <div className='homepage-offers'>
+                <div style={{fontSize:'25px',wordSpacing:'5px'}}>Stand A Chance To Win Amazing Prices</div>
+                <div style={{color:'rgb(87,28,96)'}}>REGISTER, ATTEND AND ENGAGE</div>
+                <div><a href='/' style={{color:'black', borderBottom:'2px solid green', textDecoration:'none'}}>Opt For AWS Cloud Services With Us To Win Exciting Offers*</a></div>
+                </div>
+                <div className='homepage-offers-photos'>
+                    <div className='homepage-offers-photo'>
+                    <div><img src={echo} alt="echo"/></div>
+                    <div>Top 50 customers will get Amazon Echo Dot</div>
+                    </div>
+                    <div className='homepage-offers-photo'>
+                    <div ><img src={fire} alt="fire stick"/></div>
+                    <div>Next 50 customers will get Amazon Firestick</div>
+                    </div>
+                    <div className='homepage-offers-photo'>
+                    <div><img src={gift} alt="gifts"/></div>
+                    <div>And much more to win</div>
+                    </div>
+                </div>
+                <div style={{color:'lightgray',textAlign:'right', marginRight:'10vh'}}>*T&C apply</div>
         </>
     )
 

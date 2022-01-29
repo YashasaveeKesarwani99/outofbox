@@ -142,12 +142,13 @@
     color: white;
     border-radius: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content:center;
 }
 
 .homepage-ses-left{
     padding-top:2%;
+    padding-left: 5%;
     padding-bottom: 2%;
     display: flex;
     flex-direction: column;
@@ -162,6 +163,7 @@
 .homepage-ses-right{
     display: flex;
     align-items: center; 
+    padding-right: 10%;
 }
 
 .homepage-live-ses{
@@ -193,7 +195,7 @@
     display: flex;
     justify-content: space-between;
     top:15vh;
-    left: 3vw;
+    left: 8vw;
     height: 50vh;
     margin: auto;
     position:absolute;
@@ -209,7 +211,7 @@
     background: rgb(10,9,10);
     background: linear-gradient(150deg, rgba(10,9,10,1) 23%, rgba(82,20,125,1) 74%, rgba(207,40,94,1) 100%);;
     padding-left: 20px;
-    width: 220px;
+    width: 210px;
     color: white;
     font-weight: 500;
     border-radius: 10px;
@@ -217,4 +219,32 @@
 
 .homepage-live-ses-card div:nth-child(1){
     color:rgb(253, 249, 29);
+}
+
+.homepage-offers{
+    margin-top: 40vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 600;
+}
+
+.homepage-offers-photos{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40vh;
+}
+
+.homepage-offers-photo{
+  font-weight: 600;
+}
+ img{
+    height: 200px;
+    width: 100%;
+    position:center;
+
 }
