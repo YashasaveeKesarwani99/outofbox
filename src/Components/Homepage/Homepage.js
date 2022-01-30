@@ -6,10 +6,10 @@ import { DiCodeBadge } from 'react-icons/di'
 import echo from '../../utils/amazon_echo.png'
 import fire from '../../utils/amazon_firestick.jpg';
 import gift from '../../utils/gift_box.jpg'
-import cloud from '../../utils/cloud.jpg'
-import migration from '../../utils/migration.jpg'
-import management from '../../utils/management.jpg'
-import vr from '../../utils/vr.jpg'
+import { AiFillLinkedin } from 'react-icons/ai'
+import { AiOutlineTwitter } from 'react-icons/ai'
+import { AiFillFacebook } from 'react-icons/ai'
+import { AiOutlineArrowRight } from 'react-icons/ai'
 
 const Homepage = ()=>{
 
@@ -29,7 +29,10 @@ const Homepage = ()=>{
                     <div className='homepage-nav-right-contact'>
                         <span><span><BsFillTelephoneFill/></span>+91 1234456765</span>
                         <p>|</p>
-                        <p><span><IoMdMail/></span>email@email.com</p>
+                        <div style={{display:"flex", justifyContent:'center',alignItems:'center',paddingLeft:'4%'}}>
+                            <div style={{marginTop:'5px'}}><IoMdMail/></div>
+                            <div>email@email.com</div>
+                        </div>
                         <p>Request a call back</p>
                     </div>
                     <div className='homepage-nav-right-login'>
@@ -67,8 +70,8 @@ const Homepage = ()=>{
                     <p>2nd December 2021, 3:00 - 4:00 PM</p>
                 </div>
                 <div className='homepage-ses-right'>
-                    <p className='hompage-ses-ellipse'></p>
-                    <p >Register Now</p>
+                    <div >Register Now</div>
+                    <div style={{paddingTop:'8px', marginLeft:"10px"}}><AiOutlineArrowRight/></div>
                 </div>
             </div>
             </div>
@@ -120,19 +123,19 @@ const Homepage = ()=>{
                     <div>And much more to win</div>
                     </div>
                 </div>
-                <div style={{color:'lightgray',textAlign:'right', marginRight:'10vh'}}>*T&C apply</div>
+                <div style={{color:'lightgray',textAlign:'right', marginRight:'10vh',marginBottom:'5vh'}}>*T&C apply</div>
                 <div className='homepage-video-series'>
                     <div className='homepage-video-series-title'><a>On-Demand Video Series</a></div>
                     <div className='homepage-video-serires-cards'>
                         <div className='homepage-video-series-card'>
                             <div style={{fontWeight:'600'}}>ENLIVEN EDUCATION</div>
                             <div style={{fontWeight:'800',fontSize:"25px"}}>AWS in Education<br/> Segment</div>
-                            <div style={{fontSize:'14px',marginLeft:"1.5em"}}>View Series</div>
+                            <div style={{fontSize:'18px',marginLeft:"1.5em"}}>View Series</div>
                         </div>
                         <div className='homepage-video-series-card'>
                             <div style={{fontWeight:'600'}}>ENLIVEN EDUCATION</div>
                             <div style={{fontWeight:'800',fontSize:"25px"}}>AWS in Education<br/> Segment</div>
-                            <div style={{fontSize:'14px',marginLeft:"1.5em"}}>View Series</div>
+                            <div style={{fontSize:'18px',marginLeft:"1.5em"}}>View Series</div>
                         </div>
                     </div>
                 </div>
@@ -213,7 +216,7 @@ const Homepage = ()=>{
                         <div className='homepage-gallery-photo-1'>
                             <div className="homepage-gallery-photo-text">Cloud Consulting Services</div>
                         </div>
-                        <div className='homepage-gallery-photo-2' src={migration}>
+                        <div className='homepage-gallery-photo-2'>
                             <div className="homepage-gallery-photo-text">Cloud Consulting Services</div>
                         </div>
                         <div className='homepage-gallery-photo-3'>
@@ -246,6 +249,54 @@ const Homepage = ()=>{
                     <div className='homepage-signup-left'>
                         <div style={{fontSize:"25px"}}>Start Up Now And Get Free Consultation<br/> To Start Your AWS Journey With Us.</div>
                         <div>CONTACT US</div>
+                    </div>
+                </div>
+                <div className='homepage-footers'>
+                    <div className='homepage-footers-1'>
+                    <div className='homepage-footer'>
+                        <div>Services</div>
+                        <div>S.M.A.R.T Framework</div>
+                        <div>Cloud Computing</div>
+                        <div>Cloud Migration</div>
+                        <div>Management Services</div>
+                    </div>
+                    <div className='homepage-footer'>
+                    <div>Services</div>
+                        <div>S.M.A.R.T Framework</div>
+                        <div>Cloud Computing</div>
+                        <div>Cloud Migration</div>
+                        <div>Management Services</div>
+                    </div>
+                    <div className='homepage-footer'>
+                    <div>Services</div>
+                        <div>S.M.A.R.T Framework</div>
+                        <div>Cloud Computing</div>
+                        <div>Cloud Migration</div>
+                        <div>Management Services</div>
+                    </div>
+                    <div className='homepage-footer'>
+                    <div>Services</div>
+                        <div>S.M.A.R.T Framework</div>
+                        <div>Cloud Computing</div>
+                        <div>Cloud Migration</div>
+                        <div>Management Services</div>
+                    </div>
+                    <div className='homepage-footer'>
+                        <div>Redington</div>
+                        <div>Reach Us</div>
+                        <div>+91 99999999999</div>
+                        <div>email@address.com</div>
+                        <div style={{fontWeight:'600'}}>Follow Us On</div>
+                        <div className='homepage-footer-icons'>
+                            <AiFillLinkedin color='grey'/>
+                            <AiOutlineTwitter color='grey'/>
+                            <AiFillFacebook color='grey'/>
+                        </div>
+                    </div>
+                    </div>
+                    <div className='homepage-footers-2'>
+                        <div>Privacy Policy | Terms and Conditions</div>
+                        <div style={{color:'grey'}}>C Redington 2019, All Rights Reserved</div>
                     </div>
                 </div>
         </>
