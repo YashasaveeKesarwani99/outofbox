@@ -271,6 +271,23 @@
     align-content: center;
 }
 
+@media (max-width:876px){
+    .homepage-live-ses-cards{
+        flex-wrap: wrap;
+        height: 100vh;
+        width: 70vw;
+    }
+
+    .homepage-live-ses-card{
+        margin-bottom: 5vh;
+        height: 40vh;
+    }
+
+    .homepage-live-ses{
+        margin-bottom: 80vh;
+    }
+}
+
 .homepage-live-ses-card{
     display: flex;
     margin-right: 5vw;
@@ -308,6 +325,19 @@
     flex-direction: row;
     justify-content: space-around;
     height: 40vh;
+}
+
+@media (max-width:876px){
+    .homepage-offers-photos{
+        flex-wrap: wrap;
+        margin-bottom: 40vh;
+    }
+
+    .homepage-offers-photo{
+        margin-bottom: 5vh;
+    }
+
+
 }
 
 .homepage-offers-photo{
@@ -424,6 +454,16 @@
     margin-left: -3em;
 }
 
+@media (max-width:876px){
+    .homepage-usecase-cards{
+        flex-wrap: wrap;
+    }
+
+    .homepage-attend-title{
+        margin-top: 70vh;
+    }
+}
+
 .homepage-usecase-card{
     display: flex;
     margin-top: 2em;
@@ -518,6 +558,13 @@
     height:30vh;
     width: 60vw;
     align-items: center;   
+}
+
+@media (max-width:876px){
+    .homepage-gallery-title{
+        margin-top: 80vh;
+    }
+
 }
 
 .homepage-gallery{

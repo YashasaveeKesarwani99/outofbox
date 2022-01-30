@@ -247,6 +247,7 @@ const Homepage = ()=>{
                             <div className="homepage-gallery-photo-text">S.M.A.R.T Framework</div>
                         </div>
                     </div>
+                    <div className='homepage-offers-bottom'>
                     <div className='homepage-offers' style={{marginTop:'20vh'}}>
                 <div style={{fontSize:'25px',wordSpacing:'5px'}}>Stand A Chance To Win Amazing Prices</div>
                 <div style={{color:'rgb(87,28,96)'}}>REGISTER, ATTEND AND ENGAGE</div>
@@ -266,11 +267,14 @@ const Homepage = ()=>{
                     <div>And much more to win</div>
                     </div>
                 </div>
-                <div className='homepage-signup' style={{marginTop:'15vh'}}>
+                </div>
+                <div className='homepage-signup-bottom'>
+                <div className='homepage-signup' style={{marginTop:'20vh'}}>
                     <div className='homepage-signup-left'>
                         <div style={{fontSize:"25px"}}>Start Up Now And Get Free Consultation<br/> To Start Your AWS Journey With Us.</div>
                         <div>CONTACT US</div>
                     </div>
+                </div>
                 </div>
                 <div className='homepage-footers'>
                     <div className='homepage-footers-1'>
