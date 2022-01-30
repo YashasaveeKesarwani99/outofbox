@@ -1,6 +1,6 @@
 import React from 'react'
 import './Homepage.css'
-import { BsFillTelephoneFill } from 'react-icons/bs'
+import { BsFillTelephoneFill, BsLock } from 'react-icons/bs'
 import { IoMdMail } from 'react-icons/io'
 import { DiCodeBadge } from 'react-icons/di'
 import echo from '../../utils/amazon_echo.png'
@@ -10,8 +10,16 @@ import { AiFillLinkedin } from 'react-icons/ai'
 import { AiOutlineTwitter } from 'react-icons/ai'
 import { AiFillFacebook } from 'react-icons/ai'
 import { AiOutlineArrowRight } from 'react-icons/ai'
+import { AiOutlineMenu } from 'react-icons/ai'
 
 const Homepage = ()=>{
+
+    const [display,setDisplay] = React.useState(false)
+
+    const displayHandler = ()=>{
+        var dis = display
+        setDisplay(!dis)
+    }
 
     return(
         <>
@@ -25,6 +33,19 @@ const Homepage = ()=>{
                     <p>Marketplace</p>
                     <p>Resources</p>
                 </div>
+                {(display)?(<div className='homepage-nav-right-reponsive'>
+                    <div className='homepage-nav-right-responsive-left'>
+                    <div><span>+91 1234456765</span></div>
+                    <div>email@email.com</div>
+                    <div>Request a call back</div>
+                    <div>Login/Register</div>
+                    <div><div className='homepage-nav-right-login-trial'><p>Free trial</p></div></div>
+                    </div>
+                    <div>
+                    <div className='homepage-nav-right-reponsive-botton' onClick={()=>displayHandler()}><AiOutlineMenu size={30}/></div>
+                    </div>
+                </div>):null}
+                <div className='homepage-nav-right-reponsive-botton' onClick={()=>displayHandler()}><AiOutlineMenu size={30}/></div>
                 <div className='homepage-nav-right'>
                     <div className='homepage-nav-right-contact'>
                         <span><span><BsFillTelephoneFill/></span>+91 1234456765</span>
@@ -37,7 +58,7 @@ const Homepage = ()=>{
                     </div>
                     <div className='homepage-nav-right-login'>
                         <p>Login/Register</p>
-                        <p>Free trial</p>
+                        <div className='homepage-nav-right-login-trial'><p>Free trial</p></div>
                     </div>
                 </div>
             </div>
@@ -203,7 +224,7 @@ const Homepage = ()=>{
                             <div className='homepage-attend-cont-1-icon'><DiCodeBadge size={70} color='rgba(82,20,125,1)'/></div>
                             <div className='homepage-attend-cont-1-text'>
                                 <div>05</div>
-                                <div>Learn,Interact,Network</div>
+                                <div>Learn Interact Network</div>
                             </div>
                         </div>
                         </div>

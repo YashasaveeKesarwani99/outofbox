@@ -9,14 +9,16 @@
 
 .homepage-header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
+    width: 100vw;
 }
 
 .homepage-nav-left{
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
+    margin-left: 5vw;
 }
 
 .homepage-nav-left p{
@@ -34,6 +36,7 @@
     padding-top:0.5%;
     display: flex;
     flex-direction: column;
+    width:35vw;
 }
 
 .homepage-nav-right-contact{
@@ -42,7 +45,60 @@
     align-items: center;
     font-size: 14px;
     padding-top: 1%;
-    width: 120%;
+    width: 100%;
+}
+
+.homepage-nav-right-reponsive-botton{
+    display: none;
+}
+
+@media (max-width:1120px){
+    .homepage-nav-right-contact{
+            flex-direction: column;
+            height: 20vh;
+            justify-content: space-around;
+    }
+
+    .homepage-nav-right-contact p:nth-child(2){
+        display: none;
+    }
+}
+
+.homepage-nav-right-reponsive{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 30vh;
+    color: black;
+    width: 760px;
+    background-color: white;
+    z-index: 999999;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.homepage-nav-right-responsive-left{
+    display: flex;
+    height: 30vh;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (max-width:876px){
+    .homepage-nav-right-reponsive-botton{
+        display: block;
+        margin-right: 10%;
+        margin-top: 2%;
+    }
+
+    .homepage-nav-right{
+        display: none;
+    }
 }
 
 .homepage-nav-right-contact p{
@@ -58,26 +114,27 @@
 .homepage-nav-right-login{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     padding-top: 5%;
     align-items: center;
-    width: 120%;
 }
 
-.homepage-nav-right-login p{
+/* .homepage-nav-right-login p{
     padding-left:5% ;
-}
+} */
 
-.homepage-nav-right-login p:nth-child(2){
-    margin-left: 2%;
+.homepage-nav-right-login-trial{
+    margin-left: 5%;
     background-color: white;
-    padding-right: 5%;
-    padding-top: 2%;
     font-size: 14px;
     height: 25px;
     color:green;
+    width: 5em;
     border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
 }
+
 
 .homepage-title-container{
     height: 60vh;
