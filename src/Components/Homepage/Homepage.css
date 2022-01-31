@@ -701,7 +701,7 @@
     align-items: center;   
 }
 
-@media (max-width:876px){
+@media screen and  (max-width:876px){
     .homepage-gallery-title{
         margin-top: 80vh;
     }
@@ -713,7 +713,7 @@
 
 .homepage-gallery{
     margin-top: 20vh;
-    height: 20vh;
+    height: 10vh;
     display: flex;
     width: 100vw;
     flex-direction: column;
@@ -742,7 +742,7 @@
 
 .homepage-gallery-photos{
     height: 40vh;
-    margin-top: 10vh;
+    margin-top: 50vh;
     display: flex;
     justify-content: space-around;
     align-content: center;
