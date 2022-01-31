@@ -217,10 +217,12 @@
 
     .homepage-ses{
         margin-top: 10vh;
+        height: 60vh;
+        flex-direction: column;
     }
 
     .homepage-ses-left{
-        font-size: 18px;
+        font-size: 14px;
     }
 }
 
@@ -298,6 +300,12 @@
     display: flex;
     flex-direction: column;
     position: relative;
+}
+
+@media (max-width:462px){
+    .homepage-live-ses{
+        margin-top: 5vh;
+    }
 }
 
 .homepage-live-ses-title{
@@ -431,6 +439,12 @@
     
 }
 
+@media (max-width:462px){
+    .homepage-offers-photos{
+        margin-bottom: 90vh;
+    }
+    }
+
 .homepage-offers-photo{
   font-weight: 600;
 }
@@ -440,6 +454,7 @@
     position:center;
 
 }
+
 
 .homepage-video-series{
     background-color:rgba(218, 214, 166,.8);
@@ -478,6 +493,24 @@
     align-content: center;   
 }
 
+@media (max-width:462px){
+    .homepage-video-serires-cards{
+        display: block;
+        height: 60vh;
+        left:23vw
+    }
+
+    .homepage-video-series-card{
+        min-width: 50vw;
+        margin-bottom: 5vh;
+        height: 50vh;
+    }
+
+    .homepage-video-series{
+        margin-bottom: 80vh;
+    }
+}
+
 .homepage-video-series-card{
     display: flex;
     margin-right: 5vw;
@@ -500,6 +533,18 @@
     background: rgb(78,10,84);
     background: linear-gradient(90deg, rgba(78,10,84,1) 56%, rgba(208,46,93,1) 86%);
     border-radius: 10px;
+}
+
+@media (max-width:462px){
+    .homepage-signup{
+        height: 40vh;
+    }
+    .homepage-signup-left{
+        flex-direction: column;
+        height: 40vh;
+        text-align: center;
+        padding-top: 2em;
+    }
 }
 
 .homepage-signup-left{
@@ -567,6 +612,12 @@
 
 .homepage-usecase-cards div:not(:first-child){
     border-left: 1px solid lightgray;
+}
+
+@media (max-width:462px){
+    .homepage-usecase-cards div{
+        border-left: 1px solid lightgray;
+    }
 }
 
 .homepage-usecase-card div:nth-child(1){
@@ -742,7 +793,7 @@
 
 .homepage-gallery-photos{
     height: 40vh;
-    margin-top: 50vh;
+    margin-top: 10vh;
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -812,6 +863,17 @@
     align-items: center;
     width: 100vw;
     height: 50vh;
+}
+
+@media (max-width:462px){
+    .homepage-footers-1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .homepage-footers{
+        height: 80vh;
+    }
 }
 
 .homepage-footers-1{
