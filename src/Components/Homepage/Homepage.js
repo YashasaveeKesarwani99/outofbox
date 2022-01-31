@@ -143,8 +143,8 @@ const Homepage = ()=>{
                     <div><img src={gift} alt="gifts"/></div>
                     <div>And much more to win</div>
                     </div>
-                    <div style={{color:'lightgray',textAlign:'right', marginRight:'10vh',marginBottom:'5vh'}}>*T&C apply</div>
                 </div>
+                <div style={{color:'lightgray',textAlign:'right', marginRight:'10vh',marginBottom:'5vh'}}>*T&C apply</div>
                 <div className='homepage-video-series'>
                     <div className='homepage-video-series-title'><a>On-Demand Video Series</a></div>
                     <div className='homepage-video-serires-cards'>
