@@ -163,7 +163,11 @@ const Homepage = ()=>{
                 <div className='homepage-signup'>
                     <div className='homepage-signup-left'>
                         <div style={{fontSize:"25px"}}>Start Up Now And Get Free Consultation<br/> To Start Your AWS Journey With Us.</div>
-                        <div>CONTACT US</div>
+                        {/* <div>CONTACT US</div> */}
+                        <div style={{display:'flex'}}>
+                        <div >CONTACT US</div>
+                        <div style={{ marginLeft:"10px"}}><AiOutlineArrowRight size={20}/></div>
+                        </div>
                     </div>
                 </div>
                 <div className='homepage-usecase'>
@@ -272,7 +276,11 @@ const Homepage = ()=>{
                 <div className='homepage-signup' style={{marginTop:'20vh'}}>
                     <div className='homepage-signup-left'>
                         <div style={{fontSize:"25px"}}>Start Up Now And Get Free Consultation<br/> To Start Your AWS Journey With Us.</div>
-                        <div>CONTACT US</div>
+                        {/* <div>CONTACT US</div> */}
+                        <div style={{display:'flex'}}>
+                        <div >CONTACT US</div>
+                        <div style={{ marginLeft:"10px"}}><AiOutlineArrowRight size={20}/></div>
+                        </div>
                     </div>
                 </div>
                 </div>

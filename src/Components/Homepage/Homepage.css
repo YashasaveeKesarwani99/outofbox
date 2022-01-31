@@ -210,6 +210,20 @@
     }
 }
 
+@media (max-width:462px){
+    .homepage-about{
+        margin-top: 10vh;
+    }
+
+    .homepage-ses{
+        margin-top: 10vh;
+    }
+
+    .homepage-ses-left{
+        font-size: 18px;
+    }
+}
+
 .homepage-about-container-1{
     margin-top: 10vh;
     margin-bottom: 10vh;
@@ -578,7 +592,7 @@
 }
 
 
-@media (max-width:530px){
+@media (max-width:528px){
     .homepage-attend{
         margin-top: 40vh;
     }
@@ -586,6 +600,9 @@
 
 @media (max-width:610px){
     
+.homepage-usecase{
+    margin-top: 20vh;
+    }
 .homepage-attend{
     height: 240vh;
 }
@@ -606,7 +623,7 @@
     height: 100vh;
 }
     .homepage-attend-cont-2-content{
-    top:55vh;
+    top:47vh;
     margin-bottom: 5vh;
     min-width: 50vw;
     min-height: 30vh;
@@ -689,6 +706,9 @@
         margin-top: 80vh;
     }
 
+    .homepage-gallery-photos{
+        margin-top: 50vh;
+    }
 }
 
 .homepage-gallery{
@@ -729,6 +749,7 @@
     padding-right: 1em;
     padding-left: 1em;
 }
+
 
 .homepage-gallery-photo-1{
     width: 20vw;
