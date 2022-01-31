@@ -126,9 +126,9 @@ const Homepage = ()=>{
                 </div>
             </div>
             <div className='homepage-offers'>
-                <div style={{fontSize:'25px',wordSpacing:'5px'}}>Stand A Chance To Win Amazing Prices</div>
-                <div style={{color:'rgb(87,28,96)'}}>REGISTER, ATTEND AND ENGAGE</div>
-                <div><a href='/' style={{color:'black', borderBottom:'2px solid green', textDecoration:'none'}}>Opt For AWS Cloud Services With Us To Win Exciting Offers*</a></div>
+                <div style={{fontSize:'25px',wordSpacing:'5px',textAlign:'center'}}>Stand A Chance To Win Amazing Prices</div>
+                <div style={{color:'rgb(87,28,96)',textAlign:'center'}}>REGISTER, ATTEND AND ENGAGE</div>
+                <div style={{textAlign:'center'}}><a href='/' style={{color:'black', borderBottom:'2px solid green', textDecoration:'none'}}>Opt For AWS Cloud Services With Us To Win Exciting Offers*</a></div>
                 </div>
                 <div className='homepage-offers-photos'>
                     <div className='homepage-offers-photo'>
@@ -213,14 +213,14 @@ const Homepage = ()=>{
                         </div>
                     </div>
                     <div className='homepage-attend-cont-2'>
-                        <div className='homepage-attend-cont-1-content'>
+                        <div className='homepage-attend-cont-2-content'>
                             <div className='homepage-attend-cont-1-icon'><DiCodeBadge size={70} color='rgba(82,20,125,1)'/></div>
                             <div className='homepage-attend-cont-1-text'>
                                 <div>04</div>
                                 <div>Chance To Win Exciting Prizes</div>
                             </div>
                         </div >
-                        <div className='homepage-attend-cont-1-content'>
+                        <div className='homepage-attend-cont-2-content'>
                             <div className='homepage-attend-cont-1-icon'><DiCodeBadge size={70} color='rgba(82,20,125,1)'/></div>
                             <div className='homepage-attend-cont-1-text'>
                                 <div>05</div>
@@ -249,9 +249,9 @@ const Homepage = ()=>{
                     </div>
                     <div className='homepage-offers-bottom'>
                     <div className='homepage-offers' style={{marginTop:'20vh'}}>
-                <div style={{fontSize:'25px',wordSpacing:'5px'}}>Stand A Chance To Win Amazing Prices</div>
-                <div style={{color:'rgb(87,28,96)'}}>REGISTER, ATTEND AND ENGAGE</div>
-                <div><a href='/' style={{color:'black', borderBottom:'2px solid green', textDecoration:'none'}}>Opt For AWS Cloud Services With Us To Win Exciting Offers*</a></div>
+                <div style={{fontSize:'25px',wordSpacing:'5px',textAlign:'center'}}>Stand A Chance To Win Amazing Prices</div>
+                <div style={{color:'rgb(87,28,96)',textAlign:'center'}}>REGISTER, ATTEND AND ENGAGE</div>
+                <div style={{textAlign:'center'}}><a href='/' style={{color:'black', borderBottom:'2px solid green', textDecoration:'none'}}>Opt For AWS Cloud Services With Us To Win Exciting Offers*</a></div>
                 </div>
                 <div className='homepage-offers-photos'>
                     <div className='homepage-offers-photo'>

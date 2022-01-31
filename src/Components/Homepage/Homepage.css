@@ -1,7 +1,7 @@
 .homepage-main{
     background-color:rgb(87,28,96);
     background:linear-gradient(90deg, rgba(87,28,96,1) 0%, rgba(230,73,134,.8) 74%),url('../../utils/student_photo.jpg');
-    background-size: 100vw;
+    background-size: cover;
     height: 80vh;
     background-repeat: no-repeat;
     color: white;
@@ -211,10 +211,12 @@
 }
 
 .homepage-about-container-1{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     display: flex;
     justify-content: space-around;
     align-content: center;
-    height: 100vh;
+    height: 40vh;
 }
 
 .homepage-about-right{
@@ -247,6 +249,7 @@
     display: flex;
     justify-content: space-between;
     align-content:center;
+    margin-bottom: 5vh;
 }
 
 .homepage-ses-left{
@@ -329,6 +332,26 @@
         margin-bottom: 80vh;
     }
 }
+
+@media (max-width:570px){
+
+    .homepage-live-ses-cards{
+        left: 10vw;
+        display:block;
+
+    }
+
+    .homepage-live-ses-card{
+        min-width: 60vw;
+        height: 40vh;
+    }
+
+    .homepage-live-ses{
+        margin-bottom: 150vh;
+    }
+
+}
+
 
 .homepage-live-ses-card{
     display: flex;
@@ -485,6 +508,7 @@
     align-items: center;
 }
 
+
 .homepage-usecase-title{
     font-weight: 600;
     font-size: 30px;
@@ -553,6 +577,43 @@
     align-items: center;
 }
 
+
+@media (max-width:530px){
+    .homepage-attend{
+        margin-top: 40vh;
+    }
+}
+
+@media (max-width:610px){
+    
+.homepage-attend{
+    height: 240vh;
+}
+
+.homepage-attend-cont-1-content{
+    top:20vh;
+    margin-bottom: 5vh;
+    min-width: 50vw;
+    min-height: 30vh;
+}
+
+.homepage-attend-cont-1{
+    flex-direction: column;
+    height: 100vh;
+}
+.homepage-attend-cont-2{
+    flex-direction: column;
+    height: 100vh;
+}
+    .homepage-attend-cont-2-content{
+    top:55vh;
+    margin-bottom: 5vh;
+    min-width: 50vw;
+    min-height: 30vh;
+    }
+
+}
+
 .homepage-attend-title{
     font-weight: 800;
     font-size:30px;
@@ -582,6 +643,15 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border-radius: 10px;
 }
+
+.homepage-attend-cont-2-content{
+    position: relative;
+    height: 30vh;
+    width: 25vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+}
+
 
 .homepage-attend-cont-1-icon{
     position: absolute;
